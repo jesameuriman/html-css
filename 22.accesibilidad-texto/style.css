@@ -1,0 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+/* si colocamos el parrafo en pixeles(medidas absolutas) no va a poder crecer en el navegador, 
+para las personas que no ven letra pequeñas, se debe poner en rem(medida relativa) */
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.8rem;
+}

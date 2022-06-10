@@ -1,0 +1,8 @@
+html {
+  font-size: 75%;/* por defecto html trae 16px de fuente y con 75%=12px */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: inherit;/* fuente heredada desde html */
+}

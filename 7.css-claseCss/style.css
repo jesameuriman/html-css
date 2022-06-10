@@ -1,0 +1,17 @@
+/* Selector por elemento para todos los p 
+sin atributo especifico */
+p {
+  color: blue;
+  font-size: 40px;
+}
+
+/* Selector por atributo class */
+.parrafo {
+  color: red;
+}
+
+/* Selector por atributo ID */
+#texto {
+  color: yellow;
+  font-size: 24px;
+}

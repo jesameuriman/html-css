@@ -1,0 +1,9 @@
+/* p descendicente de div */
+div p {
+  color: red;
+}
+
+/* p hija directa de la etiqueta div */
+div > p {
+  color: blue; 
+}

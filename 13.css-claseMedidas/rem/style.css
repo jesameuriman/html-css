@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* 16px(por defecto en el navegador) - 62.5% = 10px - si le damos 1.6rem son 16px para que se adapte al celular*/
+html {
+  font-size: 62.5%;
+}
+/* rem referencia al tamaño de fuente de la etiqueta html */
+p {
+  font-size: 1.6rem;
+}
+main div {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <video controls preload="auto"> <!--controls=para tener play y stop / preload=para cargar rápido el video-->
+          <source src="./enfermedades_del_trabajo.mp4" /><!-- da la opcion que el navegador elija uno de los dos, si entiende mp4 o m4v -->
+          <source src="./enfermedades_del_trabajo.m4v" />
+        </video>
+        <video controls preload="auto"> 
+          <source src="./enfermedades_del_trabajo.mp4#t=10,60" /><!--#t=10,60 indica que empieza en el segundo 10 y termina en el segundo 60  -->
+        </video>
+      </section>
+    </main>
+  </body>
+</html>

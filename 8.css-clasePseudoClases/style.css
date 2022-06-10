@@ -1,0 +1,28 @@
+.main-nav {
+  margin-top: 10px; /* margen arriba */
+  list-style: none; /* quitar los puntitos */
+  padding-left: 0; /* dimension interna ala izquierda de la caja */
+  border-radius: 12px; /* esquinas de las cajas redondeadas */
+  background-color: #13a4a4; /* color de fondo verde */
+}
+.main-nav__item {
+  display: inline-block;  /* barra de navegacion en forma horizontal */
+}
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none; /* quitar subrayado */
+}
+/* Pseudoclases :hover vuelve azul la letra 
+al pasar el mouse en el elemento */
+.main-nav__item a:hover {
+  color: blue;
+}
+/* Pseudoclases :active se pone rojo al darle click */
+.main-nav__item a:active {
+  color: red;
+}
+/* Pseudoelemento ::after se agrega una línea despues del elemento */
+.main-nav__item a::after {
+  content: " | ";
+}
